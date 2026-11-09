@@ -8,8 +8,6 @@
 * **Libros y Ejemplares:** Un título de libro se vincula con 1:N ejemplares físicos reales para controlar el estado y la disponibilidad individual por código de inventario.
 * **Préstamos:** Los usuarios (alumnos o docentes) realizan préstamos que se detallan ítem por ítem mediante una tabla intermedia que registra las fechas de préstamo, devolución prevista y real.
 
-Atributos agregados para llegar al id más 5: `seudonimo` (Autor), `idioma` (Libro), `fecha_ingreso` (Ejemplar físico) y `fecha_solicitud`, `hora_solicitud`, `observaciones` y `renovaciones` (Préstamo).
-
 ---
 
 ## Normalización
