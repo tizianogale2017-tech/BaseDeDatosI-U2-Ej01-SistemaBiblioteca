@@ -31,3 +31,9 @@ Se muestra el proceso completo. En todas las tablas la PK va en la primera colum
 ![3FN](normalizacion/03-3fn.png)
 
 El segundo ejemplar del préstamo 1 es un dato agregado para que se vea la lista en la Forma 0.
+
+---
+
+## SQL
+
+El script `script.sql` crea las tablas con sus claves primarias y foráneas y carga datos de ejemplo. Está probado en SQLite (con `PRAGMA foreign_keys = ON;`).
